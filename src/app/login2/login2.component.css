@@ -1,0 +1,79 @@
+.fondoLogin {
+    background-image: url("../../assets/image/fondo/fondo5.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.Login-box {
+    background: white;
+    opacity: 0.8;
+    padding: 0px 30px;
+    margin: 110px auto;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+}
+
+.container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ingresar {
+    color: grey;
+    background: none;
+    text-align: center;
+    border: 2px solid #48887B;
+    outline: none;
+    border-radius: 20px;
+    transition: 0.25s;
+    width: 60%;
+}
+
+.ingresar:hover {
+    background: #48887B;
+    color: white;
+}
+
+footer {
+    float: left;
+    color: white;
+    background-color: white;
+    padding: 3px;
+    opacity: 0.8;
+}
+
+.logo {
+    margin: 0px auto;
+    width: 200px;
+}
+
+.Login-box input[type="text"],
+.Login-box input[type="password"] {
+    background: none;
+    text-align: center;
+    border: none;
+    border: 2px solid #5CC6D0;
+    padding: 14px 10px;
+    outline: none;
+    border-radius: 20px;
+    transition: 0.25s;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Login-box input[type="text"]:focus,
+.Login-box input[type="password"]:focus {
+    width: 100%;
+    border-color: #0098DA;
+}
+
+.sub-form {
+    margin: 0 auto;
+    width: 90%;
+}
