@@ -6,6 +6,7 @@ import { Login1Component } from './login1/login1.component';
 import { Login2Component } from './login2/login2.component';
 import { Login3Component } from './login3/login3.component';
 import { MenuComponent } from './menu/menu.component';
+import { routing } from './app.routes';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MenuComponent } from './menu/menu.component';
     MenuComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]

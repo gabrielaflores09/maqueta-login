@@ -10,7 +10,7 @@
     background: black;
     opacity: 0.8;
     padding: 0px 30px;
-    margin: 135px auto;
+    margin: 80px auto;
     border-radius: 15px;
 }
 
@@ -30,7 +30,22 @@
 }
 
 .ingresar {
-    float: right;
+    background: purple;
+    border: 2px solid purple;
+    color: white;
+    text-align: center;
+    outline: none;
+    box-shadow: none;
+    width: 60%;
+    margin: 12px 0px;
+}
+
+.botones {
+    text-align: center;
+}
+
+.botones a {
+    color: white;
 }
 
 footer {
@@ -61,4 +76,39 @@ hr {
     background: transparent;
     outline: none;
     color: white;
+    box-shadow: none;
+}
+
+.Login-box input[type="text"]:hover,
+.Login-box input[type="password"]:hover {
+    border: none;
+    border-bottom: 2px solid purple;
+    background: transparent;
+    box-shadow: none;
+}
+
+.redes-sociales {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.icono {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    box-shadow: 0px 5px 15px -5px #0006;
+    color: white;
+    overflow: hidden;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 24px;
+    transition: 0.2s linear;
+}
+
+.icono:hover {
+    transform: scale(1.3);
+    color: #f1f1f1;
+    background: purple;
 }
