@@ -10,7 +10,7 @@
     background: black;
     opacity: 0.8;
     padding: 0px 30px;
-    margin: 80px auto;
+    margin: 89px auto;
     border-radius: 15px;
 }
 
@@ -90,7 +90,7 @@ hr {
 .redes-sociales {
     text-align: center;
     width: 100%;
-    padding: 20px 0px;
+    /* padding: 20px 0px; */
 }
 
 .icono {

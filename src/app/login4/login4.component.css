@@ -1,0 +1,31 @@
+.fondoLogin {
+    background-image: url("../../assets/image/fondo/fondo8.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contenido {
+    background-color: white;
+    opacity: 0.9;
+}
+
+.logo-image {
+    width: 35%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+
+.pageFooter {
+    background-color: white;
+    opacity: 0.5;
+    float: left;
+}
+
+.ingresar {
+    float: right;
+}
+
+.contenidoLogin {
+    padding-top: 25px;
+    padding-block-end: 45px;
+}
